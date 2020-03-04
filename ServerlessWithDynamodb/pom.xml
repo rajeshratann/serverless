@@ -5,7 +5,7 @@
 	<groupId>com.kiralab</groupId>
 	<artifactId>ServerlessWithDynamodb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencyManagement>
+	
 		<dependencies>
 			<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-lambda -->
 			<dependency>
@@ -51,7 +51,6 @@
 				<scope>runtime</scope>
 			</dependency>
 		</dependencies>
-	</dependencyManagement>
 
 	<build>
 		<plugins>
